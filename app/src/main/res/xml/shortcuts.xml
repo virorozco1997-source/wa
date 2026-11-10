@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="colores"
+        android:enabled="true"
+        android:shortcutShortLabel="@string/colores"
+        android:shortcutLongLabel="@string/colores">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.wawrapper"
+            android:targetClass="com.example.wawrapper.ColorsActivity" />
+    </shortcut>
+</shortcuts>
